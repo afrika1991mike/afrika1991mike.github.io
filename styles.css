@@ -1,0 +1,36 @@
+h1{
+    background-color:DarkOliveGreen ;
+    color:Whitesmoke;
+    font-family:verdana;
+  }
+  
+  img {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  
+  
+  footer{
+    background-color:DarkOliveGreen;
+    color:whitesmoke;
+    font-style: oblique;
+  }
+  
+  }
+  #copyright {
+      color: whitesmoke;
+      padding-left: 20px;
+      font-size: 20px;
+  }
+  
+  #rcorners1 {
+    border-radius: 25px;
+    height: 80px;
+     
+  }
+  #rcorners2 {
+    border-radius: 25px;
+   
+    height:80px;  
+  }
