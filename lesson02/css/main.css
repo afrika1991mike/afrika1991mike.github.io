@@ -1,0 +1,21 @@
+header, footer {
+    color: #ffffff;
+    background-color:navy;
+    text-align: center;
+    border-radius: 10px;
+}
+header {
+    padding: 8px;
+    line-height: 20px;
+}
+header, main {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+header, main, footer {
+    margin: 1rem auto;
+    max-width: 760px;
+}
+
+header {
+    display: block;
+}

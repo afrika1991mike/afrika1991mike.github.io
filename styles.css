@@ -1,7 +1,7 @@
 h1{
     background-color:DarkOliveGreen ;
     color:Whitesmoke;
-    font-family:verdana;
+    font-family: 'Roboto', sans-serif;
   }
   
   img {
@@ -35,4 +35,7 @@ h1{
   }
   body{
       background-color:LightGoldenRodYellow;
+  }
+  p{
+    font-family: 'Manrope', sans-serif;
   }
