@@ -6,16 +6,33 @@ header, footer {
 }
 header {
     padding: 8px;
-    line-height: 20px;
+    line-height: 10px;
 }
 header, main {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
 }
-header, main, footer {
+header, footer {
     margin: 1rem auto;
     max-width: 760px;
+    
 }
 
 header {
     display: block;
 }
+
+p{
+    font-family: 'Manrope', sans-serif;
+  }
+  .gridArea{
+      display: grid;
+      font-size: 0.8rem;
+      grid-template-columns: 1fr;
+      
+  }
+  img{
+      max-width: 12.5em;
+  }
+ 
+    

@@ -5,9 +5,10 @@ h1{
   }
   
   img {
+    width: 8em;
     position: absolute;
-    right: 0px;
-    top: 0px;
+    right: 20px;
+    top: 20px;
   }
   
   
