@@ -5,12 +5,14 @@
     
 nav ul li {
   float: left;
+  border-right: 1px solid rgb(0, 0,0,0.3);
 }
 .clearfix{
   display: flex;
 }
 .clearfix li:first-child{
   display: none;
+  
 }
 .clearfix li{
   display: block;

@@ -27,18 +27,20 @@ nav ul{
 nav button{
     background-color: transparent;
     border: none;
-    color: tomato;
+
     font-size: 1.2rem;
 }
 nav ul li a {
     display: block;
     text-decoration: none;
     color:whitesmoke;
+    border-top: 1px solid rgb(0,0,0,0.2);
 
 }
 
 nav ul li a:hover{
-    background-color:rgba(0, 0, 0, 0.5);
+    background-color:black;
+
 }
 
 
