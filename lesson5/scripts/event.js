@@ -1,7 +1,7 @@
-const banner=document.getElementById('event')
-if(document.getDay()==5){
-    banner.style.display="block";
-}
-else{
-    bonner.style.display="none";
+
+const days=["Sunday","Monday","Tuesday","Wednesday","Thurday","Friday","Sunday"];
+if(day=="Tuesday"){
+    let event=document.getElementById("event");
+    event.style.display="block";
+
 }
