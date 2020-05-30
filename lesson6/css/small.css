@@ -1,0 +1,185 @@
+.clearfix li{
+    display: none;
+}
+.clearfix li:first-child{
+    display: block;
+}
+
+.dropdown li {
+    display: block;
+}
+
+nav{
+    background-color: #475552;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0 auto;
+}
+.navigation{
+    border: none;  
+}
+
+nav button{
+    background-color: transparent;
+    border: none;
+
+    font-size: 1.2rem;
+}
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color:whitesmoke;
+    border-top: 1px solid rgb(0,0,0,0.2);
+
+}
+
+nav ul li a:hover{
+    background-color:black;
+
+}
+
+
+main h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+header{
+    background-color: #8aa39b;
+    padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+header h1  {
+    font-size: 3rem;
+    color: whitesmoke;
+    text-shadow: 2px 2px 8px #40544d;
+    
+}
+.subheading{
+    color: whitesmoke;
+    font-style: italic;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+header img {
+	width: 80px;
+	height: auto;
+}
+ 
+.hero-image{
+   border: 1px solid #ddd;
+  border-radius: 4px;
+    background-color: #eeeeee;
+   max-width:100%;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   padding:50px;
+}
+.herodiv{
+    position: relative;
+}
+.weathersummary{
+    position: absolute;
+top: 50px;
+left: 50px;
+max-width: 100%;
+padding: .5rem;;
+color: whitesmoke;
+background-color: #40544d;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+border: 1px solid #000000 ;
+}
+.weathersummary p{
+    text-decoration: underline;
+    text-align: center;
+}
+.weathersummary ul li span{
+    color:yellow;
+    padding: .5rem;
+}
+.forecastTable table,th,td{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    
+}
+.forecastTable{
+    padding: 20px;
+}
+th{
+    background-color: #475552;
+    font-family: monospace;
+    padding: 10px;
+    font-size: x-large;
+    color: #eeeeee;
+    
+}
+td{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: grey;
+    color: yellow;
+}
+.forecastTable h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ .article p img{
+     float: right;
+    max-width: 15%;
+    border: 1px solid #475552;
+ }
+ article{
+     background-color:#eeeeee;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     border: 1px solid #ddd;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     padding:20px;
+     margin:0 auto
+ }
+ 
+ .gmap {
+	margin: 10px 0 30px;
+	border: 1px solid #000;
+    box-shadow: 0 0 30px #555;
+    max-width: 20%;
+    height: 300px;
+    padding-right: 5px;
+    grid-column: 1/8;
+    grid-row: 2/4;
+
+}
+.contacts{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#8aa39b;
+    padding-right: 20;
+}
+.contacts, .img {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #8aa39b;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 3em 6em 6em 8em;
+    
+}
+
+
+
+
+footer {
+    text-align: center;
+    background-color: #475552;
+    color: whitesmoke;
+    padding: 5px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+
+}
+.clearfix:after{
+    content:"";
+    display: table;
+    clear: both;
+}
