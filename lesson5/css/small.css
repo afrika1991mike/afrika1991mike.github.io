@@ -110,6 +110,7 @@ border: 1px solid #000000 ;
 }
 .forecastTable{
     padding: 20px;
+    
 }
 th{
     background-color: #475552;
@@ -130,9 +131,13 @@ td{
 }
  .article p img{
      float: right;
-    max-width: 15%;
+     max-width: 15%;
     border: 1px solid #475552;
  }
+
+
+   
+ 
  article{
      background-color:#eeeeee;
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
