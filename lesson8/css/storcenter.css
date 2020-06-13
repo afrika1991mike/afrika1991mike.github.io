@@ -258,28 +258,85 @@ footer {
     clear: both;
 }
 
+/*.........Gallery.............*/
+.container {
+    margin: 1rem auto;
+     display:grid;
+      grid-template-columns: 1fr 1fr 1fr; max-width: 1048px;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.clearfix:after{
-    content:"";
-    display: table;
-    clear: both;
+    .countainer img { width: 250px; height: auto; margin: .5rem;}
+    figcaption {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+text-align: center;
+        
+    }
+    /* hover effect */
+.norm:hover {
+    box-shadow: 0 0 50px #333;
 }
+
+.norm{
+    box-shadow: 0 4px 8px 0 rgba(65, 46, 46, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+
+.rocorn:hover{
+    box-shadow:0 0 50px #333 ;
+}
+.rocorn{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 375px;
+}
+.opac:hover{
+   box-shadow: 0 0 50px #333; 
+}
+.opac{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 375px;
+    width: 300px;
+}
+.blur:hover{
+    box-shadow:0 0 50px #333;
+}
+.blur{
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ height: 225px;
+}
+.object:hover{
+    box-shadow:0 0 50px #333;
+}
+.object{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.shape-outside:hover{
+    box-shadow: 0 0 50px #333;
+}
+.shape-outside{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 225px;
+    width: 300px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+table {
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    font-family:"ubuntu",sans-serif;
+    box-shadow: 10px 10px 10px #628ca6;
+ 
+  }
+  thead{
+      font-size:2rem;
+      background-color: #7fb9c2;
+
+  }
+  td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+  }
+ #col{
+     color: white;
+     background-color: #628ca6;
+     font-size: 1.5rem;
+ }
+ #style{
+     font-style: italic;
+ }
+ tfoot{
+     background-color: #7fb9c2;
+
+ }
+
+ 
