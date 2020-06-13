@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current Weather Source</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="stylesheet" href="/lesson8/css/storcenter.css">
+    <link rel="stylesheet" href="/lesson8/css/large.css">
+    <link rel="stylesheet" href ="/lesson8/css/medium.css">
+</head>
+<body>
+    <header>
+        <div class="logo-box"><img src="/lesson4/Weathericon.png" alt=" weather icon logo"></div>
+        <section class="text-headings">
+            <h1>Current Weather Source</h1>
+           <div class="subheading"> We have your weather forecast when you need it!</div>
+        </section>
+    </header>
+    <nav>
+        <ul class="clearfix">
+         <li><a href="#" onclick="toggleMenu()">☰ Menu</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="preston.html">Preston</a></li>
+        <li><a href="sodasprings.html">Soda Springs</a></li>
+        <li><a href="fishhaven.html">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+</nav>
+<main>
+    <h1>Storm Center Form</h1>
+  
+    <form action="thanks.html" method="get" enctype="multipart/form-data" name="stormform" id="stormform">
+        
+              <fieldset>
+                  
+                  <legend>Personal Info</legend>
+                  
+                  <label class="reg">Full Name*<input type="text" name="fullname" value="" placeholder="First and Last" pattern="[a-zA-Z -._]{5,99}" required="" autofocus="" class=""></label>
+                  
+                  <label class="reg">Email<input name="email" type="email" value="" placeholder="example@domain.com"></label>
+                  
+                  <label class="reg">Phone Number*<input name="phone" type="tel" value="" placeholder="1112223333" pattern="[0-9]{10,20}" required=""></label>
+                  
+                  <label class="reg">Zip code*<input name="zipcode" type="number" value="" placeholder="12345" required=""></label>
+                  
+              </fieldset>
+        
+              <fieldset>
+                  
+                  <legend>Weather Info</legend>
+                  
+                  <label class="date">Storm Date:<br>
+                  <input name="Date" type="date" value=""></label>
+                  
+                  <label class="reg">Storm Type:</label>
+                  
+                      <select name="storm type">
+                          <option selected="selected" value="" disabled="">Select Type ▾</option>
+                          <option value="Flash Flood">Flash Flood</option>
+                          <option value="Hail">Hail</option>
+                          <option value="Hurricane">Hurricane</option>
+                          <option value="Thunderstorm">Thunderstorm</option>
+                          <option value="Tornado">Tornado</option>
+                          
+                      </select>
+                  
+                  <label class="storm">Storm Severity(1-10):</label>
+                  <span id="ratingvalue">5</span><br>
+                  <input name="severity" type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    
+                  
+                  <label class="reg">Storm Region:</label>
+                  
+                      <select name="region">
+                          <option selected="selected" value="" disabled="">Select Region ▾</option>
+                          <option value="Preston">Preston</option>
+                          <option value="Soda Springs">Soda Springs</option>
+                          <option value="Fish Haven">Fish Haven</option>
+                      </select>
+                  
+                  <label class="danger">User in-danger level:</label>
+                      <label class="rdo"><input type="radio" name="danger" value="Yes">Yes</label>
+                      <label class="rdo"><input type="radio" name="danger" value="No">No</label>
+                      <label class="rdo"><input type="radio" name="danger" value="Maybe">Maybe</label>
+                                     
+                  <label class="reg">Additional Information or comments:<input class="textArea" type="text" name="message"></label>
+                  
+              </fieldset>
+        
+              <input type="submit" value="Submit Report" class="button">
+              <input type="hidden" value="Storm Center Submission" name="subject">
+              <input name="redirect" type="hidden" value="thanks.html">
+        
+    </form>          
+<div class="contacts">
+    <h5>Preston Weather</h5>
+    <p>124 Main Street</p>
+    <p>Preston,ID 21655</p>
+    <p>Ph : 800.555.777</p>
+    <iframe class="gmap"
+             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7247.441289006088!2d-111.88067048839277!3d42.09833357784941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7ecfeb7b869%3A0x8abd165683b62e8d!2sPreston%20Ave%2C%20Preston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2sru!4v1590241140348!5m2!1sen!2sru" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>         
+<div class=" img">
+<a href="https://www.youtube.com/" target="_blank">
+ <img src="/lesson5/images/youtubeicon.png" alt="images youtube icon"></a>
+<a href="https://www.instagram.com/" target="_blank"> <img src="/lesson5/images/insticon.png" alt="instagram icone image"></a>
+<a href="http://www.facebook.com" target="_blank"> <img src="/lesson5/images/facebookicon.jpg" alt="facebook icone image"></a>
+ </div>
+</div>  
+</main>
+<footer>
+    © 2020 | Michael Afurika| Moscow |<a href="https://www.byui.edu/online">BYUI Online Learning</a> |<span id="scripts"></span>
+</footer>
+<script src="/lesson5/scripts/currentdate.js"></script>
+<script src="/lesson6/scripts/windchill.js"></script>
+</body>
+</html>

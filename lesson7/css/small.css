@@ -61,6 +61,7 @@ text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 225px;
     width: 300px;
+
 }
 
 
@@ -140,26 +141,11 @@ header img {
     height: auto;
     
 }
- 
- 
-.hero-image{
-    
-   border: 1px solid #ddd;
-  border-radius: 4px;
-    background-color: #eeeeee;
-   max-width:100%;
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   padding:50px;
-}
-.herodiv{
-    position: relative;
-}
- 
- .gmap {
+.gmap {
 	margin: 10px 0 30px;
 	border: 1px solid #000;
     box-shadow: 0 0 30px #555;
-    max-width: 20%;
+    max-width: 250px;
     height: 300px;
     padding-right: 5px;
     grid-column: 1/8;
@@ -169,6 +155,7 @@ header img {
 .contacts{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color:#8aa39b;
+    
     
 }
 .contacts, .img {
