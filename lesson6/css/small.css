@@ -33,19 +33,14 @@ nav ul li a {
     text-decoration: none;
     color:whitesmoke;
     border-top: 1px solid rgb(0,0,0,0.2);
-
 }
-
 nav ul li a:hover{
     background-color:black;
-
 }
-
 
 main h2{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
- 
 }
 header{
     background-color: #8aa39b;
@@ -57,8 +52,7 @@ header{
 header h1  {
     font-size: 3rem;
     color: whitesmoke;
-    text-shadow: 2px 2px 8px #40544d;
-    
+    text-shadow: 2px 2px 8px #40544d;  
 }
 .subheading{
     color: whitesmoke;
@@ -71,18 +65,12 @@ header h1  {
     border: 1px red dashed;
 }
 .herofugure img{
-    width: 100%;
-    
+    width: 100%;   
 }
-
-
 header img {
 	width: 80px;
-    height: auto;
-    
+    height: auto;    
 }
- 
- 
 .hero-image{
     
    border: 1px solid #ddd;
@@ -96,7 +84,6 @@ header img {
     position: relative;
 }
 .weathersummary{
-    display: none;
     position: absolute;
 top: 50px;
 left: 50px;
