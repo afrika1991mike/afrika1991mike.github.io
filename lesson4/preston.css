@@ -96,3 +96,156 @@ footer {
     display: table;
     clear: both;
 }
+
+/*..............css for lesson 09 Site home */
+
+section.towns {
+    display: grid;
+    margin: 20px 10px 20px 10px;
+    grid-template-columns: repeat(1, 100%);
+    grid-gap: 5px;
+}
+.preston a {
+    text-decoration: none;
+}
+
+.preston h3 {
+    padding-bottom: 8px;
+    color:#000;
+}
+.preston {
+    border: solid;
+    border-width: 1px;
+    border-color:grey;
+    font-family:"ubuntu",sans-serif; 
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.46);
+}
+
+.preston img {
+    width: 95%;
+}
+.preston p {
+    font-size: small;
+    color: black;
+    line-height: normal;
+    padding-top: 5px;
+}
+
+.soda a {
+    text-decoration: none;
+}
+
+.soda {
+    border: solid;
+    border-width: 1px;
+    border-color:grey;
+    font-family: "ubuntu",sans-serif;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.46);
+}
+
+.soda h3 {
+    padding-bottom: 4px;
+    color: black;
+}
+
+.soda img {
+    width: 95%;
+}
+
+.soda p {
+    font-size: small;
+    line-height: normal;
+    padding: 5px 5px 0 5px;
+    color: black;
+}
+
+.fish a {
+    text-decoration: none;
+}
+
+.fish {
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(116, 116, 116, 0.83);
+    font-family: "ubuntu", sans-serif;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.46);
+}
+
+.fish h3 {
+    padding-bottom: 7px;
+    color: black;
+}
+
+.fish img{
+    width: 95%;
+}
+
+.fish p {
+    font-size: small;
+    line-height: normal;
+    padding-top: 5px;
+    color: black;
+}
+
+@media only screen and (min-width:500px) {
+section.towns {
+    display: grid;
+    grid-template-columns: repeat(2, 48%);
+    grid-gap: 20px;
+}
+
+.preston p {
+    font-size: medium;
+    line-height: normal;
+    padding-top: 5px;
+}    
+
+.soda p {
+    font-size: medium;
+    line-height: normal;
+}
+    
+.fish p {
+    font-size: medium;
+    line-height: normal;
+    padding-top: 5px;
+}
+}
+
+@media only screen and (min-width:900px) {
+    
+section.towns {
+    display: grid;
+    grid-template-columns: repeat(3, 32%);
+}
+    
+.preston p {
+    font-size: large;
+    line-height: normal;
+    padding-top: 5px;
+}
+
+.soda p {
+    font-size: large;
+    line-height: normal;
+}
+    
+.fish p {
+    font-size: large;
+    line-height: normal;
+    padding-top: 5px;
+}
+   
+}

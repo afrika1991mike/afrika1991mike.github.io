@@ -1,4 +1,5 @@
 .cards {
+    background-color: #333;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
     border: 1px solid #0000;
@@ -6,8 +7,7 @@
     color: #999;
     max-width: 98%;
     margin: auto;
-    background-image:url("https://d3ewd3ysu1dfsj.cloudfront.net/images/stories/large/35030.jpg?1487202042");
-    background-color: #333;
+    
     
 }
 .card {
@@ -31,6 +31,10 @@ h2 {
     color:#333;
     font-family:"ubuntu",sans-serif;
   
+}
+h5{
+    color: #000;
+    font-size: .9rem;
 }
 
 
