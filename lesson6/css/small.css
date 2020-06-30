@@ -95,13 +95,18 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 border: 1px solid #000000 ;
 }
 .weathersummary p{
-    text-decoration: underline;
+    
     text-align: center;
 }
 .weathersummary ul li span{
     color:yellow;
     padding: .5rem;
 }
+.weathersummary span{
+    color:yellow;
+    padding: .5rem;
+}
+
 .forecastTable table,th,td{
     border: 1px solid #000000;
     border-collapse: collapse;
@@ -173,9 +178,9 @@ td{
 .contacts{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color:#8aa39b;
-    padding-right: 20;
+    padding-right: 20px;
 }
-.contacts, .img {
+.contacts,.img {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #8aa39b;
     display: grid;

@@ -24,11 +24,11 @@
     <nav>
         <ul class="clearfix">
          <li><a href="#" onclick="toggleMenu()">☰ Menu</a></li>
-        <li><a href="index.html">Home</a></li>
-        <li class="active"><a href="preston-5.html">Preston</a></li>
+        <li><a href="/lesson9/home.html">Home</a></li>
+        <li class="active"><a href="/lesson10/preston10.html">Preston</a></li>
         <li><a href="sodasprings.html">Soda Springs</a></li>
         <li><a href="fishhaven.html">Fish Haven</a></li>
-        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="/lesson8/stormcenter.html">Storm Center</a></li>
         <li><a href="gallery.html">Gallery</a></li>
     </ul>
 </nav>
@@ -42,52 +42,49 @@
            <source srcset="/lesson6/images/heroimage1100.jpg" media="(min-width:769px)">
            <img src="/lesson6/images/heroimage250.jpg" alt=" Idaho village photo">
         </picture>
-
+    </div>
+</div>
 <div class="weathersummary">
     <p>Weather Summary</p>
-    <ul>
-        <li>
-            Currently:<span
-            id="Currentlytemp">Sunny</span>
-        </li>
-        <li>
-            High:<span
-            id="Summary-hight">46°F</span></li>
-            <li>
-                wind chill:44°F
-                <span
-                id="Summary-windchill"></span></li>
-                <li>
-                    Precipitation:<span
-                    id="precip">0inch</span>
-                </li>
-                <li>
-                    Wind Speed:<span
-                    id="curentspeed">5mph</span>
-                </li>
-    </ul>
+    <p>Currently:<span id="currently"></span></p>
+    <p>High:<span id="high"></span></p>
+    <p>Wind Chill:<span id="windChill"></span></p>
+    <p>Humidity:<span id="humidity"></span></p>
+    <p>Wind Speed:<span id="windSpeed"> </span></p>
+
     </div>
     </div>
 <div class="forecastTable">
-    <h3>High Temperature forecast</h3>
+    <h3>5 Days forecast</h3>
     
     <table>
-    <tr>
-        <th>Days</th>
-        <th>Wed</th>
-        <th>Thu</th>
-        <th>Frid</th>
-        <th>Sat</th>
-        <th>Sun</th>
-    </tr>
-    <tr>
-        <td>Forecast</td>
-        <td>89°F</td>
-        <td>89°F</td>
-        <td>78°F</td>
-        <td>75°F</td>
-        <td>72°F</td>
-    </tr>
+        <tr><th><span id="day1">Wednesday</span></th>
+            <th><span id="day2">Thusday</span></th>
+            <th><span id="day3">Friday</span></th>
+            <th><span id="day4">Saturday</span></th>
+            <th><span id="day5">Sunday</span></th>
+        </tr>
+        <tr>
+            <td><img src="#" alt="" id="imgforecast5" />
+                <p id="forecast5"></p>
+            </td>
+
+            <td><img src="#" alt="" id="imgforecast13" />
+                <p id="forecast13"></p>
+            </td>
+
+            <td><img src="#" alt="" id="imgforecast21" />
+                <p id="forecast21"></p>
+            </td>
+
+            <td><img src="#" alt="" id="imgforecast29" />
+                <p id="forecast29"></p>
+            </td>
+
+            <td><img src="#" alt="" id="imgforecast37" />
+                <p id="forecast37"></p>
+            </td>
+        </tr>
     </table>
   </div>
   <article>      
@@ -125,5 +122,6 @@
 </footer>
 <script src="/lesson5/scripts/currentdate.js"></script>
 <script src="/lesson6/scripts/windchill.js"></script>
+<script src="/lesson10/weatherapi.js"></script>
 </body>
 </html>
