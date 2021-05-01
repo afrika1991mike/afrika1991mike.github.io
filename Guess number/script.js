@@ -141,3 +141,7 @@ function showNumberBelow(){
 
   document.getElementById("result").innerHTML = dialog;
 }
+
+
+
+
