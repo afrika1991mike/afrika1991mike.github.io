@@ -20,6 +20,6 @@ if('intersectionObserver' in window){
         imagesToload.forEach((img)=>{
             loadImages(img);
         });
-    }
+    } 
 
     
